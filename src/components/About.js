@@ -3,7 +3,7 @@ import React from 'react';
 const Left = ({ }) => (
   <div className="col-sm-6">
     <hr className="name-dash"/>
-    <div className="name font-weight-bold">Oyebanji Olayemi</div>
+    <div className="name font-weight-bold">Oyebanji Olayemi Afolarin</div>
     <div style={{margin: '110px 190px', color: '#5a5a5a', width: '80%'}}>
       <h3 style={{letterSpacing: '3px'}} className="my-5 font-weight-bolder">About Big Uncle Yemi</h3>
       <div style={{width: '260px'}}>

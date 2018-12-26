@@ -70,7 +70,8 @@ li.nav-item {
   transform: rotate(90deg);
   height: 20px;
   position: absolute;
-  top: 245px;
+  top: 270px;
+  left: -18px;
 }
 
 .name-dash{
@@ -104,4 +105,41 @@ li.nav-item {
 .social>a:hover{
   background-color: black !important;
   margin-left: -200px;
+}
+
+.serv{
+  width: 200px;
+  text-align: center;
+  border: 3px solid #5a5a5a;
+  color: #5a5a5a;
+  margin: 30px 20px 30px 0;
+  transition: all 1s;
+}
+
+.serv i{
+  margin: 30px 40px;
+}
+
+.serv-dash{
+  transform: rotate(0deg);
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  border: 1px solid #e90201;
+  height: 40px;
+}
+
+.craft{
+  transform: rotate(90deg);
+  height: 20px;
+  position: absolute;
+  top: 230px;
+  right: 30px;
+}
+
+.serv:hover{
+  color: #fff;
+  background-color: #5a5a5a;
+  transform: scale(1.1, 1.1);
+  border: none;
 }
