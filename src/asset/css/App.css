@@ -2,3 +2,89 @@
   display: flex;
   flex-flow: column nowrap;
 }
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+li.nav-item {
+  padding: 13px;
+}
+
+.bg-red{
+  top: 0;
+  position: absolute;
+  background: #e90201;
+  height: 100%;
+  width: 75vw;
+  right: 0;
+}
+
+.bg-black{
+  top: 0;
+  position: absolute;
+  background: #393939;
+  height: 100%;
+  width: 25vw;
+}
+
+.portfolio-header{
+  position: relative;
+  height: 95vh;
+}
+
+.heading{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.heading h1{
+  font-size: 11.2rem;
+  color: #ffffff99;
+  font-weight: 700;
+}
+
+.intro{
+  color: white;
+  position: absolute;
+  width: 40%;
+  right: 100px;
+  top: 450px;
+}
+
+.intro p{
+  font-size: 1.7rem;
+}
+
+.intro span{
+  font-size: 18px;
+}
+
+.intro a{
+  font-size: 1.5em;
+}
+
+.name{
+  transform: rotate(90deg);
+  height: 20px;
+  position: absolute;
+  top: 245px;
+}
+
+.name-dash{
+  transform: rotate(0deg);
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  border: 1px solid #e90201;
+  height: 40px;
+}
+
+.social a{
+  width: 300px;
+  padding: 15px;
+  background-color: #e90201;
+  color: white !important;
+}
