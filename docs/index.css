@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+    font-size: 100%;
+}
+/*header*/
+header{
+    background-color: rgba(79,169,217,0.99);
+    padding: 40px 15px 100px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border-bottom: rgba(0, 104, 170, 0.99) solid 15px;
+    font-family: "Bookman Old Style", "Adobe Gothic Std B",sans-serif;
+}
+header > h1{
+    padding-left: 45px;
+}
+header > #title{
+    float: left;
+    display: block;
+    font-size: 1.9em;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    line-height: 40px;
+}
+#tit{
+    font-size: 0.7em;
+}
+h1 > a {
+    color: white;
+    text-decoration: none;
+}
+header > nav{
+    float: right;
+    padding: 40px 40px 0px 40px;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+}
+/*container*/
+content > h1{
+    text-transform: uppercase;
+    padding: 30px 20px 30px 100px;
+    color: rgba(52,137,174,0.99);
+}
+.desp{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #d6dfdf;
+    width: 300px;
+    margin-top: -4px;
+    color: white;
+}
+.portfolio{
+    display: inline-flex;
+    padding: 0px 40px 0px 140px;
+}
+.port{
+    padding-left: 40px;
+}
+/*footer*/
+footer{
+    text-align: center;
+    color: hsla(202, 22%, 55%, 0.99);
+    padding: 40px 10px 30px 10px;
+}

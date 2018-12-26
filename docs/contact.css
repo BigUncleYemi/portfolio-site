@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+    font-size: 100%;
+}
+/*header*/
+header{
+    background-color: rgba(79,169,217,0.99);
+    padding: 40px 15px 100px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border-bottom: rgba(0, 104, 170, 0.99) solid 15px;
+    font-family: "Bookman Old Style", "Adobe Gothic Std B",sans-serif;
+}
+header > h1{
+    padding-left: 45px;
+}
+header > #title{
+    float: left;
+    display: block;
+    font-size: 1.9em;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    line-height: 40px;
+}
+#tit{
+    font-size: 0.7em;
+}
+h1 > a {
+    color: white;
+    text-decoration: none;
+}
+header > nav{
+    float: right;
+    padding: 40px 60px 0px 60px;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+}
+/*container*/
+
+content {
+    text-transform: capitalize;
+    color: rgba(52,137,174,0.99);
+}
+.head{
+    padding: 20px 75px 20px 0px;
+}
+table{
+    width: 70%;
+    padding: 50px 0px;
+}
+td > span{
+    color: dodgerblue;
+}
+.pace{
+    line-height: 25px;
+}
+/*footer*/
+footer{
+    text-align: center;
+    color: hsla(202, 22%, 55%, 0.99);
+    padding: 40px 10px 30px 10px;
+}
