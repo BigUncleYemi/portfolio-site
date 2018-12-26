@@ -1,18 +1,18 @@
 import React from 'react';
 
 const Nav = ({}) => (
-  <nav class="navbar navbar-expand-md navbar-dark bg-faded mt-3" role="navigation">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav className="navbar navbar-expand-md navbar-dark bg-faded mt-3" role="navigation">
+    <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto mt-2 font-weight-bold mt-lg-0 mr-4">
-        <li className="nav-item active"><a className="nav-link =">Home</a></li>
-        <li className="nav-item"><a className="nav-link">About Me</a></li>
-        <li className="nav-item"><a className="nav-link">Services</a></li>
-        <li className="nav-item"><a className="nav-link">Works</a></li>
-        <li className="nav-item"><a className="nav-link">Contact</a></li>
-        <li className="nav-item"><a className="nav-link">Blog</a></li>
+        <li className="nav-item active"><a href="#home" className="nav-link">Home</a></li>
+        <li className="nav-item"><a href="#aboutme" className="nav-link">About Me</a></li>
+        <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
+        <li className="nav-item"><a href="#works" className="nav-link">Works</a></li>
+        <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -39,7 +39,7 @@ const Intro = ({}) => (
 );
 
 const Header = ({ }) => (
-  <header className="portfolio-header">
+  <header className="portfolio-header" id="home">
     <div className="bg-black"/>
     <div className="bg-red"/>
     <Nav />
