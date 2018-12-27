@@ -12,6 +12,14 @@ li.nav-item {
   padding: 13px;
 }
 
+a{
+  text-decoration: none !important;
+}
+
+h3{
+  font-size: 2rem;
+}
+
 .bg-red{
   top: 0;
   position: absolute;
@@ -37,11 +45,11 @@ li.nav-item {
 .heading{
   position: absolute;
   top: 200px;
-  left: 50px;
+  left: 20px;
 }
 
 .heading h1{
-  font-size: 11.2rem;
+  font-size: 12rem;
   color: #ffffff99;
   font-weight: 700;
 }
@@ -142,4 +150,23 @@ li.nav-item {
   background-color: #5a5a5a;
   transform: scale(1.1, 1.1);
   border: none;
+}
+
+.nav-tab li{
+  border-bottom: #39393970 3px solid;
+  padding-bottom: 0px;
+}
+
+.nav-tab a{
+  color: #393939;
+  font-size: 1.25rem;
+  margin-bottom: -3px;
+}
+
+.nav-tab a:hover{
+  color: #393939a3 !important;
+}
+
+.nav-tab a.active{
+  border-bottom: 3px solid #e90201;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = ({}) => (
+const Nav = () => (
   <nav className="navbar navbar-expand-md navbar-dark bg-faded mt-3" role="navigation">
     <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -12,19 +12,19 @@ const Nav = ({}) => (
         <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
         <li className="nav-item"><a href="#works" className="nav-link">Works</a></li>
         <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
+        <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
       </ul>
     </div>
   </nav>
 );
 
-const Heading = ({ }) => (
+const Heading = () => (
   <div className="heading">
     <h1>Big Uncle Yemi</h1>
   </div>
 );
 
-const Intro = ({}) => (
+const Intro = () => (
   <div className="intro">
     <p className="font-weight-bold">Web Artist, Photo freak, No.1 Otaku.</p>
     <div className="mt-2 mb-4">
@@ -38,7 +38,7 @@ const Intro = ({}) => (
   </div>
 );
 
-const Header = ({ }) => (
+const Header = () => (
   <header className="portfolio-header" id="home">
     <div className="bg-black"/>
     <div className="bg-red"/>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Left = ({ }) => (
+const Left = () => (
   <div className="col-sm-6">
     <hr className="name-dash"/>
     <div className="name font-weight-bold">Oyebanji Olayemi Afolarin</div>
@@ -26,14 +26,14 @@ const Left = ({ }) => (
   </div>
 );
 
-const Right = ({}) => (
+const Right = () => (
   <div className="col-sm-6">
     <div className="position-relative">
       <div className="d-flex flex-column social">
-        <a><i className="fab fa-twitter" aria-hidden="true"/>&emsp;Oyebanji Olayemi</a>
-        <a><i className="fab fa-facebook-f" aria-hidden="true"/>&emsp;Oyebanji Olayemi</a>
-        <a><i className="fab fa-instagram" aria-hidden="true"/>&emsp;Big_Uncle_Yemi</a>
-        <a><i className="fab fa-github" aria-hidden="true"/>&emsp;Big Uncle Yemi</a>
+        <a href=" "><i className="fab fa-twitter" aria-hidden="true"/>&emsp;Oyebanji Olayemi</a>
+        <a href=" "><i className="fab fa-facebook-f" aria-hidden="true"/>&emsp;Oyebanji Olayemi</a>
+        <a href=" "><i className="fab fa-instagram" aria-hidden="true"/>&emsp;Big_Uncle_Yemi</a>
+        <a href=" "><i className="fab fa-github" aria-hidden="true"/>&emsp;Big Uncle Yemi</a>
       </div>
       <div className="mypic">
         <img src="http://via.placeholder.com/400x700" alt="me" />
@@ -42,7 +42,7 @@ const Right = ({}) => (
   </div>
 );
 
-const About = ({ }) => (
+const About = () => (
   <section className="d-flex flex-row position-relative" id="aboutme">
     <Left />
     <Right />
