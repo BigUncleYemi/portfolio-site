@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contain = () => (
-  <div className="container">
+  <div className="w-80 mx-auto">
     <div className="row">
       <div className="col-sm-12">
         <h3 style={{letterSpacing: '3px'}} className="my-5 font-weight-bolder text-white">Recent Blog Posts</h3>

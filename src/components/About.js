@@ -43,7 +43,7 @@ const Right = () => (
 );
 
 const About = () => (
-  <section className="d-flex flex-row position-relative" id="aboutme">
+  <section className="d-flex flex-row flex-wrap position-relative" id="aboutme">
     <Left />
     <Right />
   </section>

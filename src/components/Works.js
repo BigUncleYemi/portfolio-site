@@ -2,6 +2,8 @@ import React from 'react';
 
 const Content = () => (
   <div className="container">
+  <hr className="name-dash"/>
+  <div className="name font-weight-bold" style={{top: '200px', left: '50px'}}>Projects</div>
     <div className="row">
       <div className="col-sm-12">
         <hr />
@@ -59,7 +61,7 @@ const Content = () => (
 );
 
 const Works = () => (
-  <section className="d-flex flex-row position-relative my-5" id="works">
+  <section className="d-flex flex-row flex-wrap position-relative my-5" id="works">
     <Content />
   </section>
 );

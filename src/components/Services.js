@@ -51,7 +51,7 @@ const Right = () => (
 );
 
 const Services = () => (
-  <section className="d-flex flex-row position-relative my-5" id="services">
+  <section className="d-flex flex-row  flex-wrap position-relative my-5" id="services">
     <Left />
     <Right />
   </section>
