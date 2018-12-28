@@ -20,15 +20,15 @@ const Content = () => (
     </div>
     <div className="row">
       <div className="col-sm-12">
-        <ul class="nav nav-tab justify-content-center my-5">
-          <li class="nav-item">
-            <a class="nav-link active" href="#m">All</a>
+        <ul className="nav nav-tab justify-content-center my-5">
+          <li className="nav-item">
+            <a className="nav-link active" href="#m">All</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#a">Web Devlopment</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#a">Web Devlopment</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#f">Mobile App Devlopment</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#f">Mobile App Devlopment</a>
           </li>
         </ul>
       </div>

@@ -11,8 +11,8 @@ const Nav = () => (
         <li className="nav-item"><a href="#aboutme" className="nav-link">About Me</a></li>
         <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
         <li className="nav-item"><a href="#works" className="nav-link">Works</a></li>
-        <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
         <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
+        <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
       </ul>
     </div>
   </nav>

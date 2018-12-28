@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Header from './Header';
 import About from './About';
 import Services from './Services';
-import Works from './Works'
+import Works from './Works';
+import Blog from './Blog';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <About />
         <Services />
         <Works />
+        <Blog />
       </div>
     );
   }
