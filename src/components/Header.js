@@ -11,7 +11,7 @@ const Nav = () => (
         <li className="nav-item"><a href="#aboutme" className="nav-link">About Me</a></li>
         <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
         <li className="nav-item"><a href="#works" className="nav-link">Works</a></li>
-        <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
+        {/* <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li> */}
         <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
       </ul>
     </div>
@@ -27,7 +27,7 @@ const Heading = () => (
 const Intro = () => (
   <div className="intro">
     <p className="font-weight-bold">Web Artist, Photo freak, No.1 Otaku.</p>
-    <div className="mt-2 mb-4">
+    <div className="mt-2 mb-3">
       <span>
         Quisque in velit id ante suscipit convallis in ac mauris.Aliquam
         eget venenatis urna,quis facilisis libero.Quisque in velit id

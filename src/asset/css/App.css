@@ -28,6 +28,7 @@ h3{
   height: 100%;
   width: 75vw;
   right: 0;
+  z-index: -99;
 }
 
 .bg-black{
@@ -36,21 +37,27 @@ h3{
   background: #393939;
   height: 100%;
   width: 25vw;
+  z-index: -99;
 }
 
 .portfolio-header{
   position: relative;
-  height: 95vh;
+  padding-bottom: 300px;
+  /* height: 95vh; */
 }
 
 .heading{
-  position: absolute;
+  /* position: absolute;
   top: 200px;
-  left: 20px;
+  left: 60px; */
+  position: relative;
+  margin-top: 5rem;
+  margin-left: 38px;
+  margin-bottom: 5rem;
 }
 
 .heading h1{
-  font-size: 15rem;
+  font-size: 15.5rem;
   color: #ffffff99;
   font-weight: 700;
 }
@@ -58,9 +65,9 @@ h3{
 .intro{
   color: white;
   position: absolute;
-  width: 40%;
+  width: 30%;
   right: 100px;
-  top: 450px;
+  top: 550px;
 }
 
 .intro p{
