@@ -118,6 +118,11 @@ h3{
   left: 155px;
 }
 
+.mypic img {
+  width: 400px;
+  height: 100%;
+}
+
 .social>a:hover{
   background-color: black !important;
   margin-left: -200px;
@@ -261,4 +266,10 @@ h3{
 
 #contact{
   min-height: 300px;
+}
+
+.name + div{
+  margin: 110px 190px;
+  color: rgb(90, 90, 90);
+  width: 80%;
 }
